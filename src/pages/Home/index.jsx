@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import Folder from "../../components/Folder"
+import Footer from "../../components/Footer"
 import Header from "../../components/Header"
 import SpotlightCard from "../../components/SpotlightCard"
 import { useImoveis } from "../../providers/imoveis"
@@ -35,11 +36,14 @@ const Home = () =>{
 
                 <div className="spotlights-box">
                     {spotlights.map(imovel=>(
-                        <SpotlightCard key={imovel.id} titulo={imovel.nome} img={imovel.imagens[0]} bairro={imovel.bairro} preço={imovel.valor}/>
+                        <SpotlightCard key={imovel.id} titulo={imovel.nome} img={imovel.imagens[0]} bairro={imovel.bairro} 
+                        preço={imovel.valor} area={imovel.area} quartos={imovel.quartos} vagas={imovel.vagas}/>
                     ))}
 
                 </div>
             </section>
+
+            <Footer/>
         </HomeContainer>
     )
 }

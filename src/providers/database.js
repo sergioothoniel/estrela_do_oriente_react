@@ -1,3 +1,6 @@
+import campinho1 from '../assets/images/imoveis/Campinho/1.jpeg'
+import sitio1 from '../assets/images/imoveis/sitio-CG/1.jpeg'
+
 export const dbImoveis = [
     {
       id: 1,
@@ -11,14 +14,7 @@ export const dbImoveis = [
       area: 80,
       quartos: 3,
       vagas: 2,
-      imagens: [
-        "../../assets/imagens/imoveis/1.jpeg",
-        "../../assets/imagens/imoveis/3.jpeg",
-        "../../assets/imagens/imoveis/5.jpeg",
-        "../../assets/imagens/imoveis/7.jpeg",
-        "../../assets/imagens/imoveis/9.jpeg",
-        "../../assets/imagens/imoveis/10.jpeg",
-      ],
+      imagens: [campinho1]
     },
     {
       id: 2,
@@ -154,13 +150,7 @@ export const dbImoveis = [
       quartos: 0,
       vagas: 0,
       imagens: [
-        "../../assets/imagens/imoveis/sitio-CG/1.jpeg",
-        "../../assets/imagens/imoveis/sitio-CG/2.jpeg",
-        "../../assets/imagens/imoveis/sitio-CG/3.jpeg",
-        "../../assets/imagens/imoveis/sitio-CG/4.jpeg",
-        "../../assets/imagens/imoveis/sitio-CG/5.jpeg",
-        "../../assets/imagens/imoveis/sitio-CG/6.jpeg",
-        "../../assets/imagens/imoveis/sitio-CG/7.jpeg",
+        sitio1
       ],
     },
   ];
