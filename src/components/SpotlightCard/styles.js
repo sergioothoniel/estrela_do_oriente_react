@@ -10,7 +10,7 @@ display: flex;
 flex-direction: column;
 width: 23vw;
 min-width: 250px;
-max-width: 360px;
+max-width: 310px;
 cursor: pointer;
 
 :hover{

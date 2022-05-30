@@ -17,7 +17,7 @@ flex-direction: column;
 
 .spotlights-box{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0 10px;
     flex-wrap: wrap;    
 }

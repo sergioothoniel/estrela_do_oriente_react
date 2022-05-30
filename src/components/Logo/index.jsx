@@ -1,9 +1,13 @@
 import { LogoContainer } from "./styles"
 import logoImg from "../../assets/images/logo/logo.jpeg"
+import { useHistory } from "react-router-dom"
 
 const Logo = () =>{
+
+    const history = useHistory()
+    
     return(
-        <LogoContainer>
+        <LogoContainer onClick={()=>history.push("/")}>
             <img src={logoImg} alt="" />
         </LogoContainer>
 

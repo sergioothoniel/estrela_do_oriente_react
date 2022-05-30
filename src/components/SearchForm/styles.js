@@ -7,7 +7,7 @@ background: rgb(220, 220, 220, 0.5);
 height: 35%;
 padding: 30px;
 border-radius: 40px;
-width: 35%;
+width: 40%;
 min-width: 240px;
 
 form{

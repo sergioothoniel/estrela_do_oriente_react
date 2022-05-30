@@ -10,8 +10,8 @@ const Home = () =>{
 
     const {imoveisList} = useImoveis()
 
-    const [spotlights, setSpotlights] = useState([])
-
+    const [spotlights, setSpotlights] = useState([])      
+    
     useEffect(()=>{
         const newList = []
         const lastItem = imoveisList.length-1
@@ -37,7 +37,7 @@ const Home = () =>{
                 <div className="spotlights-box">
                     {spotlights.map(imovel=>(
                         <SpotlightCard key={imovel.id} titulo={imovel.nome} img={imovel.imagens[0]} bairro={imovel.bairro} 
-                        preço={imovel.valor} area={imovel.area} quartos={imovel.quartos} vagas={imovel.vagas}/>
+                        preço={imovel.valor} area={imovel.area} quartos={imovel.quartos} vagas={imovel.vagas} id={imovel.id}/>
                     ))}
 
                 </div>

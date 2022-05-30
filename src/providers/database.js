@@ -1,5 +1,9 @@
-import campinho1 from '../assets/images/imoveis/Campinho/1.jpeg'
 import sitio1 from '../assets/images/imoveis/sitio-CG/1.jpeg'
+import sitio2 from '../assets/images/imoveis/sitio-CG/2.jpeg'
+import sitio3 from '../assets/images/imoveis/sitio-CG/3.jpeg'
+import sitio4 from '../assets/images/imoveis/sitio-CG/4.jpeg'
+import sitio5 from '../assets/images/imoveis/sitio-CG/5.jpeg'
+import sitio6 from '../assets/images/imoveis/sitio-CG/6.jpeg'
 
 export const dbImoveis = [
     {
@@ -14,7 +18,7 @@ export const dbImoveis = [
       area: 80,
       quartos: 3,
       vagas: 2,
-      imagens: [campinho1]
+      imagens: []
     },
     {
       id: 2,
@@ -150,7 +154,7 @@ export const dbImoveis = [
       quartos: 0,
       vagas: 0,
       imagens: [
-        sitio1
+        sitio1, sitio2, sitio3, sitio4, sitio5, sitio6
       ],
     },
   ];
