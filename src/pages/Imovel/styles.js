@@ -37,4 +37,11 @@ export const ImovelDetailsContainer = styled.div`
     opacity: 1;
 }
 
+.divisor{
+    width: 60%;
+    height: 0.6px;
+    background-color: rgb(208, 208, 208);
+    margin: 20px 0;
+}
+
 `
