@@ -40,7 +40,7 @@ margin: auto;
         height: inherit;
         position: absolute;
         max-width: inherit;
-        display: flex;
+        display: none;
         align-items: center;
         justify-content: space-between;        
     }
@@ -122,6 +122,10 @@ h1, h2{
 
     .images-main{
         width: 100%;
+
+        .icons-passImg{
+            display: flex;
+        }
     }   
     
     .images-main svg{

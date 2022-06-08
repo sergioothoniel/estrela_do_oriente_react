@@ -1,4 +1,6 @@
 import styled from "styled-components"
 
-export const ImovelCardsList = styled.div`
+export const ImovelCardsListContainer = styled.div`
+width: min-content;
+margin: auto;
 `

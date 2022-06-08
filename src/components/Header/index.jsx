@@ -1,15 +1,19 @@
 import Logo from "../Logo"
 import { HeaderContainer } from "./styles"
 import {AiOutlineMenu} from "react-icons/ai";
+import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
 const Header = () =>{
+
+    const history = useHistory()
+
     return(
         <HeaderContainer>
             <Logo/>
             <AiOutlineMenu/>
 
             <ul>
-                <li>Comprar Imóvel</li>
+                <li onClick={()=>history.push('/comprar')}>Comprar Imóvel</li>
                 <li>Alugar Imóvel</li>
                 <li>Anunciar Imóvel</li>
                 <li>Contato</li>
