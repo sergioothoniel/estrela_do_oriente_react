@@ -14,7 +14,7 @@ const Header = () =>{
 
             <ul>
                 <li onClick={()=>history.push('/comprar')}>Comprar Imóvel</li>
-                <li>Alugar Imóvel</li>
+                <li onClick={()=>history.push('/alugar')}>Alugar Imóvel</li>
                 <li>Anunciar Imóvel</li>
                 <li>Contato</li>
                 <li>Entrar</li>
