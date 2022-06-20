@@ -24,8 +24,6 @@ const Home = () =>{
        
     }, [])
 
-    console.log(spotlights)
-
     return(
         <HomeContainer>
             <Header/>

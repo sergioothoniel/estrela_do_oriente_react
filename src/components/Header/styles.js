@@ -20,7 +20,7 @@ ul{
 
     li{
         cursor: pointer;
-        font-size: larger;
+        font-size: medium;
         font-weight: bold;
     }
 

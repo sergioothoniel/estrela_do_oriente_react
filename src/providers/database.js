@@ -116,7 +116,7 @@ export const dbImoveis = [
       descriçao:
         "Galpão com 20m de frente e fundo, 27m laterais com 6m de altura",
       bairro: "Campo Grande",
-      tags: ["galpão, terreno"], // casa, loja, apartamento, terreno ou sítio
+      tags: ["galpão", "terreno"], // casa, loja, apartamento, terreno ou sítio
       area: 540,
       quartos: 0,
       vagas: 0,

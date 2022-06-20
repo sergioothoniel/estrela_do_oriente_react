@@ -7,6 +7,7 @@ color: white;
 margin-top: 200px;
 height: 200px;
 padding: 40px 30px;
+display: flex;
 
 ul{
     height: 100%;
@@ -17,5 +18,39 @@ ul{
     li{
         cursor: pointer;
     }
+}
+
+.footer-contacts{
+    width: 50%;
+    text-align: center;
+
+    svg{
+        width: 25px;
+        height: 25px;
+        padding: 5px;
+    }
+}
+
+.tel{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+
+
+    svg{
+        width: 15px;
+        height: 15px;
+    }
+}
+
+span{
+    display: flex;
+    align-items: center;  
+}
+
+.socilaMedias svg{
+    cursor: pointer;
 }
 `

@@ -39,10 +39,4 @@ margin: auto;
 h1{
     width: 60vw;
 }
-
-@media (max-width: 800px){
-    .filter-box{
-        display: none;
-    }
-}
 `
