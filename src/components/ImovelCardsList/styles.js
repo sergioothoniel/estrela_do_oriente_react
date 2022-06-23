@@ -7,6 +7,8 @@ margin: auto;
 .filter-box{
     margin: 30px 0;
     display: flex;
+    width: 832px;
+    justify-content: space-between;
 }
 
 .search{

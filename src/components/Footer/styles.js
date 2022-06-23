@@ -23,6 +23,9 @@ ul{
 .footer-contacts{
     width: 50%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 
     svg{
         width: 25px;
@@ -52,5 +55,9 @@ span{
 
 .socilaMedias svg{
     cursor: pointer;
+}
+
+@media (max-width: 800px){
+    justify-content: space-evenly;
 }
 `

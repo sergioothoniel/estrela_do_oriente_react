@@ -104,11 +104,16 @@ h1, h2{
     }
 }
 
-.adress{
+.adress, .contact{
     h3{
         font-weight: bold;
         padding: 10px 0;
     }
+}
+
+svg{
+    margin: 0 5px;
+    cursor: pointer;
 }
 
 @media (max-width: 800px){

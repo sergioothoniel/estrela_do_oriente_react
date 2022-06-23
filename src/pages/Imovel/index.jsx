@@ -5,6 +5,7 @@ import Footer from "../../components/Footer"
 import { useImoveis } from "../../providers/imoveis"
 import { ImovelDetailsContainer } from "./styles"
 import {AiOutlineLeft, AiOutlineRight} from "react-icons/ai"
+import { IoLogoWhatsapp } from "react-icons/io"
 
 const Imovel = () =>{
 
@@ -109,6 +110,13 @@ const Imovel = () =>{
             <div className="adress">
                 <h3>Endereço</h3>
                 <span>{endereço}</span>
+            </div>
+
+            <div className="divisor"></div>
+
+            <div className="contact">
+                <h3>Fale com o anunciante:</h3>
+                <div>(21) 98124-9952 <IoLogoWhatsapp onClick={()=>window.open("https://wa.me/+5521981249952")}/></div>
             </div>
 
         </ImovelDetailsContainer>}

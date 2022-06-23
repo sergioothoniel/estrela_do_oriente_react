@@ -7,10 +7,10 @@ svg{
 }
 
 h3{
-    padding: 40px 0;
+    padding: 40px 30px;
 }
 
-h3, .contacts{
+.contacts{
     margin-left: 30px;
 }
 
@@ -29,4 +29,14 @@ figure{
     margin: auto;
 }
 
+@media (max-width: 800px){
+
+    .contacts{
+        max-width: 78%;
+    }
+    
+    img{
+        max-width: 90vw;
+    }
+}
 `
