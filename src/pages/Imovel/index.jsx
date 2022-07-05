@@ -93,7 +93,7 @@ const Imovel = () =>{
 
                     <div className="features-itens">
                         <h3>Área:</h3>
-                        <span>{area}</span>
+                        <span>{area+" m²"}</span>
                     </div>
 
                     <div className="features-itens">

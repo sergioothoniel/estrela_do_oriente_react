@@ -8,9 +8,10 @@ border-radius: 10%;
 align-items: center;
 display: flex;
 flex-direction: column;
-width: 23vw;
+width: 19vw;
 min-width: 250px;
 max-width: 310px;
+height: 480px;
 cursor: pointer;
 
 :hover{

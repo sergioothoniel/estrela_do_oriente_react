@@ -138,4 +138,10 @@ svg{
     }
 }
 
+@media (max-width: 800px){
+    .images-main{
+        height: 370px;
+    }
+}
+
 `
