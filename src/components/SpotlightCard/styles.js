@@ -36,6 +36,10 @@ h2, h3{
     padding: 15px 10px;
 }
 
+h2{
+    font-weight: bolder;
+}
+
 h3{
     font-size: small;
 }

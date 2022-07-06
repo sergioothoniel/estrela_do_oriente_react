@@ -10,7 +10,7 @@ const SpotlightCard = ({img, titulo, bairro, preço, area, quartos, vagas, id}) 
 
     const handleClick = ()=>{
         history.push(`/imovel/${id}`)        
-    }
+    } 
 
 
     return(
@@ -18,7 +18,7 @@ const SpotlightCard = ({img, titulo, bairro, preço, area, quartos, vagas, id}) 
             <figure><img src={img} alt="" /></figure>
             <h2>{titulo}</h2>
             <h3>{bairro}</h3>
-            <h1>{preço}</h1>
+            <h1>{Number(preço.slice(3)[0]) === 0 ? "Sob consulta" : preço}</h1>
 
             <div className="data">
                 <div className="data-item">
