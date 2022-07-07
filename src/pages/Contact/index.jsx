@@ -15,7 +15,7 @@ const Contact = () =>{
 
             <div className="contacts">
                 <p>Joe Alves Vianna:  (21) 97040-5751 <IoLogoWhatsapp onClick={()=>window.open("https://wa.me/+5521970405751")}/></p>
-                <p>Cláduia:  (21) 98124-9952 <IoLogoWhatsapp onClick={()=>window.open("https://wa.me/+5521981249952")}/></p>
+                <p>Cláduia Farias:  (21) 98124-9952 <IoLogoWhatsapp onClick={()=>window.open("https://wa.me/+5521981249952")}/></p>
             </div>
 
             <figure><img src={LogoImg} alt="" /></figure>          

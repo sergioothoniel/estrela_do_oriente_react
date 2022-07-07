@@ -71,7 +71,7 @@ const Imovel = () =>{
                 </ul>
             </div>
 
-            <h2>{valor}</h2>
+            <h2>{Number(valor.slice(3)[0]) === 0 ? "Sob consulta" : valor}</h2>
 
             <h3>{descriçao}</h3>
 
