@@ -2,7 +2,7 @@
 
 Imobiliária virtual para imóveis no Rio de Janeiro
 
-Link:  [https://estrela-do-oriente-react.vercel.app/](https://estreladoorienteimobiliaria.com/)                       
+Link:  [https://estreladoorienteimobiliaria.com/](https://estreladoorienteimobiliaria.com/)                       
 Repositório: https://github.com/sergioothoniel/estrela_do_oriente_react
 
 ## Desenvolvimento
