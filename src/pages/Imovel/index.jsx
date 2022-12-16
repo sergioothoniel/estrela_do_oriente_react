@@ -23,24 +23,24 @@ const Imovel = () =>{
         setImovel(imovelSelected)
         setMainImgIndex(0)
         setMainImg(imovelSelected.imagens[mainImgIndex])
-    },[imoveisList]) 
-    
+    },[imoveisList])
+
     const handleClickImg = (index) =>{
-        setMainImgIndex(index)        
+        setMainImgIndex(index)
     }
 
     const previousImage = () =>{
-        setMainImgIndex(mainImgIndex-1)              
+        setMainImgIndex(mainImgIndex-1)
     }
 
     const nextImage = () =>{
-        setMainImgIndex(mainImgIndex+1)         
+        setMainImgIndex(mainImgIndex+1)
     }
 
     useEffect(()=>{
         if(!!imagens){
             setMainImg(imagens[mainImgIndex])
-        }        
+        }
     },[mainImgIndex])
 
     return(
@@ -51,16 +51,16 @@ const Imovel = () =>{
             <h1>{nome}</h1>
 
             <div className="images">
-                <figure className="images-main">                   
+                <figure className="images-main">
                     <img src={mainImg} alt="" />
 
                     <div className="icons-passImg">
                         <div>{mainImgIndex > 0 && <AiOutlineLeft onClick={previousImage}/>}</div>
                         <div>{mainImgIndex < imagens.length-1 &&<AiOutlineRight onClick={nextImage}/>}</div>
                     </div>
-                    
+
                  </figure>
-                    
+
 
                 <ul className="images-aside">
                     {imagens.map((img, index) =>{
@@ -73,7 +73,7 @@ const Imovel = () =>{
 
             <h2>{Number(valor.slice(3)[0]) === 0 ? "Sob consulta" : valor}</h2>
 
-            <h3>{descriçao}</h3>
+            <h3 dangerouslySetInnerHTML={{ __html: descriçao }}></h3>
 
             <div className="divisor"></div>
 
@@ -101,7 +101,7 @@ const Imovel = () =>{
                         <span>{vagas}</span>
                     </div>
 
-                </div>             
+                </div>
             </div>
 
             <div className="divisor"></div>
